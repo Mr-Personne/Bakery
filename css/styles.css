@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body{
+    font-family: Montserrat;
+}
+
+strong{
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+
+/***********************************section prestation***********************************************/
+html:root{
+    --white: white;
+}
+.container{
+    width:80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.bg-gourmandise{
+    background-color:#f1d6ab;
+}
