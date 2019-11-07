@@ -13,6 +13,7 @@ html:root{
     --grey: #2b2b28;
     --golden: #e3b04b;
     --yellow: #f1d6ab;
+    --white: white;
 }
 .bg-grey{
     background-color: var(--grey);
@@ -45,4 +46,9 @@ strong{
 #map{
     height:300px;
     width: 100%;
+}
+.nav-link:hover{
+        
+    color: var(--white)! important;
+    
 }
