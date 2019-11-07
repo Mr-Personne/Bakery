@@ -33,7 +33,6 @@ html:root{
     color: var(--golden);
 }
 
-
 /* FONT SYSTEM */
 body{
     font-family: Montserrat;
@@ -43,13 +42,13 @@ strong{
     font-weight: 700;
 }
 
-.nav-link:hover{
-        
-    color: var(--white)! important;
-    
-}
 /* MAP */
 #map{
     height:300px;
     width: 100%;
+}
+.nav-link:hover{
+        
+    color: var(--white)! important;
+    
 }
