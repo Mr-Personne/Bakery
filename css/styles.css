@@ -17,7 +17,6 @@ html:root{
     background-color: var(--yellow);
 }
 
-
 /* FONT SYSTEM */
 body{
     font-family: Montserrat;
@@ -25,4 +24,10 @@ body{
 strong{
     font-family: Montserrat;
     font-weight: 700;
+}
+
+/* MAP */
+#map{
+    height:300px;
+    width: 100%;
 }
