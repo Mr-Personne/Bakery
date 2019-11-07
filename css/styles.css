@@ -52,3 +52,12 @@ strong{
     color: var(--white)! important;
     
 }
+
+/*-------------SECTION ENTETE BACKER OF FRANCE----------------------*/
+.bg-poudre-entete{
+    background-image: url("../medias/poudre-mystere.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+/*------------------------------------------------------------------*/
