@@ -74,10 +74,11 @@ p{
     height:300px;
     width: 100%;
 }
+
 .nav-link:hover{
         
     color: var(--white)! important;
-    
+  
 }
 
 /*-------------SECTION ENTETE BACKER OF FRANCE----------------------*/
