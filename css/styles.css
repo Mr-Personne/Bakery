@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'hey_novemberregular';
+    src: url('../css/font/hey_november-webfont.woff2') format('woff2'),
+         url('../css/font/hey_november-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
 
@@ -17,6 +24,14 @@ html:root{
 .bg-yellow{
     background-color: var(--yellow);
 }
+.bg-contact{
+    background-image: url("../medias/flour-bg-contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-golden{
+    color: var(--golden);
+}
 
 
 /* FONT SYSTEM */
@@ -32,4 +47,9 @@ strong{
         
     color: var(--white)! important;
     
+}
+/* MAP */
+#map{
+    height:300px;
+    width: 100%;
 }
