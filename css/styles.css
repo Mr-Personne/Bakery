@@ -16,6 +16,15 @@ html:root{
 .bg-yellow{
     background-color: var(--yellow);
 }
+.bg-contact{
+    background-image: url("../medias/flour-bg-contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-golden{
+    color: var(--golden);
+}
+
 
 /* FONT SYSTEM */
 body{
