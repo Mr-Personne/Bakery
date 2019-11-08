@@ -17,7 +17,7 @@
   <meta property="og:title" content="La Boulangerie Baker vous ouvre ses portes.">
   <meta property="og:description" content="Maître artisan, tous nos produits sont fabriqués dans nos cuisines.">
   <meta property="og:site_name" content="Bakery">
-  <meta property="og:image" content="http://rayans.promo-vesoul33.codeur.online/bakery/medias/thumbnail.png">
+  <meta property="og:image" content="http://rayans.promo-vesoul33.codeur.online/bakery/medias/thumbnail.jpg">
   <meta property="og:image:width" content="380">
   <meta property="og:image:height" content="380">
   <meta property="og:image:alt" content="facebook_partage">
@@ -26,7 +26,7 @@
   <meta name="twitter:title" content="La Boulangerie Baker vous ouvre ses portes.">
   <meta name="twitter:description" content="Maître artisan, tous nos produits sont fabriqués dans nos cuisines.">
   <meta name="twitter:site" content="https://twitter.com/Bakery">
-  <meta name="twitter:image" content="http://rayans.promo-vesoul33.codeur.online/bakery/medias/thumbnail.png">
+  <meta name="twitter:image" content="http://rayans.promo-vesoul33.codeur.online/bakery/medias/thumbnail.jpg">
   <meta name="twitter:creator" content="Bakery">
 
   <!-- Bootstrap CSS -->
@@ -270,6 +270,27 @@
     crossorigin=""></script>
   <script src="js/map.js"></script>
 
+  
+       <script type="text/javascript" src="js/jquery.js"></script><script type="text/javascript" src="js/mesfonctions.js"></script>
+       
+       <script>
+
+function myLastScrollTo(id) {
+  var e = document.getElementById(id);
+  var box = e.getBoundingClientRect();
+  window.scrollBy(0, box.top);
+}
+
+function myScrollTo(id) {
+  var e = document.getElementById(id);
+  var box = e.getBoundingClientRect();
+  var k, inc;
+  inc = (box.top >= 0) ? 1 : -1;
+  for (k = 0; k < 49; k++) setTimeout("window.scrollBy(0," + Math.floor(box.top / 50) + ")", 10 * k);
+  setTimeout("myLastScrollTo('" + id + "')", 500);
+}
+
+       </script>
 </body>
 
 </html>
