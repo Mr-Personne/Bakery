@@ -43,7 +43,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .bg-poudre-entete{
-        @include bg-poudre-entete(215% 0%);
+        @include bg-poudre-entete(200% 0%);
     }
     .heyNovember-font{
         font-family: 'hey_novemberregular';
