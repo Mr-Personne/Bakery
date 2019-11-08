@@ -22,7 +22,7 @@
     }
     .navbar-light .navbar-nav .nav-link {
         color: #212121;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .nav-link:hover{
         color: var(--white);   
@@ -31,4 +31,22 @@
     html {
         scroll-behavior: smooth !important
       }
-   
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+}
+    
