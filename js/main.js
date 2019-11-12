@@ -7,3 +7,4 @@ var slideUp = {
 };
 
 ScrollReveal().reveal('.showonscroll', slideUp);
+$( ".wow" ).addClass( "fadeInUp" );
