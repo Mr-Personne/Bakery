@@ -1,5 +1,5 @@
 var slideUp = {
-    distance: '300%',
+    distance: '100%',
     origin: 'bottom',
     opacity: 0,
     delay: 900,
@@ -8,23 +8,23 @@ var slideUp = {
 
 ScrollReveal().reveal('.slideUp', slideUp);
 
-var slideLeft = {
-    distance: '300%',
-    origin: 'left',
-    opacity: 0,
-    delay: 900,
-    duration: 900,
-};
+// var slideLeft = {
+//     distance: '300%',
+//     origin: 'left',
+//     opacity: 0,
+//     delay: 900,
+//     duration: 900,
+// };
 
-ScrollReveal().reveal('.slideLeft', slideLeft);
+// ScrollReveal().reveal('.slideLeft', slideLeft);
 
 
-var slideRight = {
-    distance: '300%',
-    origin: 'right',
-    opacity: 0,
-    delay: 900,
-    duration: 900,
-};
+// var slideRight = {
+//     distance: '300%',
+//     origin: 'right',
+//     opacity: 0,
+//     delay: 900,
+//     duration: 900,
+// };
 
-ScrollReveal().reveal('.slideRight', slideRight);
+// ScrollReveal().reveal('.slideRight', slideRight);
