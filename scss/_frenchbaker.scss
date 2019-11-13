@@ -11,7 +11,7 @@
 
 .heyNovember-font{
     font-family: 'hey_novemberregular';
-    font-size: 2.5rem;
+    font-size: 4em;
 }
 
 /*MEDIA QUERIES CUSTOM*/
@@ -46,7 +46,7 @@
         @include bg-poudre-entete(200% 0%);
     }
     .heyNovember-font{
-        font-family: 'hey_novemberregular';
+        font-size: 2.1em;
     }
 }
 // test
